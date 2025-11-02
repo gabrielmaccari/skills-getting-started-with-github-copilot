@@ -111,6 +111,28 @@ section h3 {
   white-space: nowrap;
 }
 
+/* Small remove button inside participant pill */
+.participant-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: #b00020;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+.remove-btn:hover {
+  background: rgba(176, 0, 32, 0.08);
+}
+
 /* Mensagem quando não há participantes */
 .participants-empty {
   color: #666;
